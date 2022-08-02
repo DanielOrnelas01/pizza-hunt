@@ -1,5 +1,3 @@
-// create the Pizza model using the PizzaSchema
-const Pizza = model('Pizza', PizzaSchema);
+const Pizza = require('./Pizza');
 
-// export the Pizza model
-module.exports = Pizza;
+module.exports = { Pizza };
